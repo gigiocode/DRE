@@ -13,7 +13,9 @@ export default function Slogan() {
                     text-white font-light
                 `}
             >
+
                 <div className="flex gap-2.5">
+                <span className="relative">A </span>
                     <div className={`relative`}>
                         <span
                             className={`
@@ -50,7 +52,7 @@ export default function Slogan() {
         <div className="flex flex-col justify-center gap-5">
             {renderizarFrase()}
             <div className="text-sm lg:text-lg font-thin text-zinc-500 text-center sm:text-left">
-                Plataforma financeira que simplifica sua vida!
+                Construa seu próprio DRE e assuma o controle da sua vida financeira!
             </div>
             <div className="flex justify-center sm:justify-start items-center gap-2">
                 <div
