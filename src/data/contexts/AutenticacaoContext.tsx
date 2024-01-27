@@ -62,4 +62,4 @@ export function AutenticacaoProvider(props: any) {
     )
 }
 
-export default AutenticacaoContext
+export default AutenticacaoContext;
